@@ -16,12 +16,12 @@ int is_prime(int n)
       }
   return 1;
 }
-void output(int n,int is_prime)
+void output(int n,int a)
 {
-if (is_prime)
-  printf(" %d is a prime number\n",is_prime);
+if (a == 1)
+  printf(" %d is a prime number\n",n);
  else
-  printf("%d is not a prime number\n",is_prime);
+  printf("%d is not a prime number\n",n);
   
 }
 int main()
